@@ -17,4 +17,4 @@ WORKDIR /app
 COPY --from=build /app/target/service_depenses_budget-0.0.1-SNAPSHOT.jar /app/service_depenses_budget.jar
 
 # Spécifier la commande d'exécution
-ENTRYPOINT ["java", "-jar", "/app/service-depenses-budget.jar"]
+ENTRYPOINT ["java", "-jar", "/app/service_depenses_budget.jar"]
